@@ -1,8 +1,8 @@
-# Bus Tracking System
+ Bus Tracking System
 
 A PHP-based **Bus Tracking System** designed to manage bus routes, locations, students, and related transportation details.
 
-## Features
+ Features
 
 - Bus route management
 - Bus location tracking
@@ -12,7 +12,7 @@ A PHP-based **Bus Tracking System** designed to manage bus routes, locations, st
 - PHP-based backend
 - QR Code support
 
-## Technologies Used
+ Technologies Used
 
 - PHP
 - JavaScript
@@ -21,7 +21,7 @@ A PHP-based **Bus Tracking System** designed to manage bus routes, locations, st
 - QR Code
 - MySQL
 
-## Project Files
+ Project Files
 
 - `Main.php` – Main application page
 - `Home.php` – Home page
@@ -36,11 +36,11 @@ A PHP-based **Bus Tracking System** designed to manage bus routes, locations, st
 - `Studentvalid.php` – Student validation
 - `VERSION` – Project version information
 
-## QR Code
+ QR Code
 
 The project includes a PHP-based QR Code generator for creating QR Code 2-D barcodes.
 
-## Installation
+ Installation
 
 1. Download or clone this repository.
 2. Place the project inside your PHP server directory such as `htdocs`.
@@ -48,16 +48,16 @@ The project includes a PHP-based QR Code generator for creating QR Code 2-D barc
 4. Configure the database if required.
 5. Open the project in your browser.
 
-## Usage
+ Usage
 
 Run the project through a local PHP server and use the available menu options to manage bus routes, locations, and student information.
 
-## License
+ License
 
 This project contains PHP QR Code components licensed under the **GNU Lesser General Public License (LGPL)**.
 
-## Author
+ Author
 
-**Saheranjum Makandar**
+Saheranjum Makandar
 
 GitHub: [saheranjumm13](https://github.com/saheranjumm13)
