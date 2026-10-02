@@ -1,45 +1,63 @@
-This is PHP implementation of QR Code 2-D barcode generator. It is pure-php
-LGPL-licensed implementation based on C libqrencode by Kentaro Fukuchi.
+# Bus Tracking System
 
-== LICENSING ==
+A PHP-based **Bus Tracking System** designed to manage bus routes, locations, students, and related transportation details.
 
-Copyright (C) 2010 by Dominik Dzienia 
+## Features
 
-This library is free software; you can redistribute it and/or modify it under
-the terms of the GNU Lesser General Public License as published by the Free
-Software Foundation; either version 3 of the License, or any later version.
+- Bus route management
+- Bus location tracking
+- Student details management
+- Route and location information
+- Simple web-based interface
+- PHP-based backend
+- QR Code support
 
-This library is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE. See the GNU Lesser General Public License (LICENSE file)
-for more details.
+## Technologies Used
 
-You should have received a copy of the GNU Lesser General Public License along
-with this library; if not, write to the Free Software Foundation, Inc., 51
-Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
+- PHP
+- JavaScript
+- CSS
+- HTML
+- QR Code
+- MySQL
 
-== INSTALATION AND USAGE ==
+## Project Files
 
- * INSTALL file
- * http://sourceforge.net/apps/mediawiki/phpqrcode/index.php?title=Main_Page
+- `Main.php` – Main application page
+- `Home.php` – Home page
+- `Header.php` – Header section
+- `Menubar.php` – Navigation menu
+- `Routeval.php` – Route-related functionality
+- `Location_Details.php` – Location details
+- `Locationaction.php` – Location actions
+- `Mymap.php` – Map functionality
+- `Student_Details.php` – Student information
+- `Studentaction.php` – Student-related actions
+- `Studentvalid.php` – Student validation
+- `VERSION` – Project version information
 
-== CONTACT ==
+## QR Code
 
-Fell free to contact me via e-mail (deltalab at poczta dot fm) or using
-folowing project pages:
+The project includes a PHP-based QR Code generator for creating QR Code 2-D barcodes.
 
- * http://sourceforge.net/projects/phpqrcode/
- * http://phpqrcode.sourceforge.net/
-  
-== ACKNOWLEDGMENTS ==
+## Installation
 
-Based on C libqrencode library (ver. 3.1.1) 
-Copyright (C) 2006-2010 by Kentaro Fukuchi
-http://megaui.net/fukuchi/works/qrencode/index.en.html
+1. Download or clone this repository.
+2. Place the project inside your PHP server directory such as `htdocs`.
+3. Start Apache and MySQL using XAMPP/WAMP.
+4. Configure the database if required.
+5. Open the project in your browser.
 
-QR Code is registered trademarks of DENSO WAVE INCORPORATED in JAPAN and other
-countries.
+## Usage
 
-Reed-Solomon code encoder is written by Phil Karn, KA9Q.
-Copyright (C) 2002, 2003, 2004, 2006 Phil Karn, KA9Q
- 
+Run the project through a local PHP server and use the available menu options to manage bus routes, locations, and student information.
+
+## License
+
+This project contains PHP QR Code components licensed under the **GNU Lesser General Public License (LGPL)**.
+
+## Author
+
+**Saheranjum Makandar**
+
+GitHub: [saheranjumm13](https://github.com/saheranjumm13)
